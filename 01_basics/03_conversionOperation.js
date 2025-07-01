@@ -23,6 +23,18 @@ console.log(booleanIsLoggedIn);
 // "" => false
 
 
+// let str1 = "hey"
+// let str2 = "hariom"
+
+// console.log(str1+str2);
+
+// console.log(true);
+
+
+
+
+
+
 
 
 
