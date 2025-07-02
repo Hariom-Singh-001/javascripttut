@@ -6,8 +6,8 @@ console.log(name + repoCount + "Value"); // is tarike se likhna is not good habb
 
 console.log(`hello my name is ${name} and my repocount is ${repoCount}`); // ismein brackets ke andar single quote nahi laga hai DONT GET CONFUSE FROM IT**********
 
-// ANOTHER WAY TO DEFIB=NE STRINGS 
-const gameName = new String('hariom')
+// ANOTHER WAY TO DEFIneE STRINGS 
+const gameName = new String('hariom-hs-hr')
 
 console.log(gameName[0]);
 
@@ -32,6 +32,15 @@ const newStringOne = "   hariom   "
 
 console.log(newStringOne);
 console.log(newStringOne.trim());
+
+const url = "https://hariom.com/hariom%20singh"
+
+console.log(url.replace('%20','-'));  //used to replace the special symbol or white sapces from the url links
+
+console.log(gameName.split('-')); // syntax: console.log(gameName.split('seprator',limit));
+
+
+
 
 
 
