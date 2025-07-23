@@ -1,6 +1,6 @@
 // arrays
 
-const myArr = [1,2,3,4,"hariom"]
+const myArr = [0,1,2,3,4,"hariom"]
 
 const myHeros = ["shaktiman","nagaraj"]
 
@@ -39,11 +39,26 @@ console.log(myArr);
 console.log("A",myArr );
 
 
-const myn2 = myArr.slice(1,3);
+const myn1 = myArr.slice(1,3); //it does not make changes in original array
+console.log(myn1);
+console.log("B",myArr);
 
 
-
-
+const myn2 = myArr.splice(1,3); // it make changes in the original array
 console.log(myn2);
+console.log("c",myArr);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
