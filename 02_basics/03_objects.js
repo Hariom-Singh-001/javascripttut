@@ -6,5 +6,6 @@
 
 
 
+const Jsuser = {}
 
 
