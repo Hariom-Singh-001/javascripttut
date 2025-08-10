@@ -46,14 +46,32 @@ Jsuser.name = "Rabbi"
 // console.log(Jsuser)
 // to freeze the changes 
 
-Object.freeze(Jsuser)
+// Object.freeze(Jsuser)
 
-Jsuser.name = "HAriom" //trying to change the name value after freezing
+// Jsuser.name = "HAriom" //trying to change the name value after freezing
 
 
 console.log(Jsuser) //it will not show any error but it cannot change the name after freezing
 
  
+Jsuser.greeting = function(){
+    console.log("Hello JS User")
 
+
+}
+
+Jsuser.greetingTwo = function(){
+    console.log(`hello Js User, ${this.name}`)
+
+}
+    
+
+
+
+
+// console.log(Jsuser.greeting) this will show undefined
+
+console.log(Jsuser.greeting())
+console.log(Jsuser.greetingTwo())
 
 
