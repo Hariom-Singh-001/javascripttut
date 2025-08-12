@@ -63,3 +63,15 @@ console.log(Object.entries(tinderUser));//this will make the array of the key va
 console.log(tinderUser.hasOwnProperty('isLoggedIn')) // to check the avilability of the argument 
 
 
+// destruturing
+
+const course = {
+
+    coursename: "js in hindi",
+    price: "999",
+    courseInstrutor: "hariom"
+
+
+}
+
+// 
