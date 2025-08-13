@@ -71,7 +71,8 @@ Jsuser.greetingTwo = function(){
 
 // console.log(Jsuser.greeting) this will show undefined
 
-console.log(Jsuser.greeting())
-console.log(Jsuser.greetingTwo())
+console.log(Jsuser.greeting()) //this will show first output 
+
+console.log(Jsuser.greetingTwo()) // this will show thw first output 
 
 
