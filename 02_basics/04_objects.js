@@ -63,7 +63,7 @@ console.log(Object.entries(tinderUser));//this will make the array of the key va
 console.log(tinderUser.hasOwnProperty('isLoggedIn')) // to check the avilability of the argument 
 
 
-// destruturing
+// destruturing {object ki}
 
 const course = {
 
@@ -74,4 +74,16 @@ const course = {
 
 }
 
-// 
+// call traditonally hum aiise call karte hain
+// course.courseInstrutor
+
+const {courseInstrutor: instructor} = course //this is called destructuring (apne hisab se naam dena)
+
+// console.log(courseInstrutor);
+
+// or
+
+console.log(instructor);
+
+
+
